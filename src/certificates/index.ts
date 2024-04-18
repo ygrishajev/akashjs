@@ -6,6 +6,7 @@ import { createStarGateMessage } from "../pbclient/pbclient";
 import { QueryCertificatesRequest, QueryCertificatesResponse } from "../protobuf/akash/cert/v1beta3/query";
 import { CertificateFilter } from "../protobuf/akash/cert/v1beta1/cert";
 
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const JsonRPC = require("simple-jsonrpc-js");
 
 import { toBase64 } from "pvutils";
