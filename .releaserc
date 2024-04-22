@@ -27,5 +27,6 @@
       "name": "main"
     }
   ],
-  "preset": "conventionalcommits"
+  "preset": "conventionalcommits",
+  "debug": true
 }
